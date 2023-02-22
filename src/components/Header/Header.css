@@ -1,0 +1,25 @@
+.header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+.header__logo {
+  height: 2.125rem;
+  width: 1.875rem;
+}
+
+.header__settings {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__settings-line {
+  height: 2rem;
+  width: 0.0625rem;
+  background: rgb(var(--line-color));
+}

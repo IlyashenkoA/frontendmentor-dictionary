@@ -1,0 +1,12 @@
+.dictionary {
+  padding: 1.25rem;
+  max-width: 46.5rem;
+
+  margin-inline: auto;
+}
+
+@media (min-width: 48rem) {
+  .dictionary {
+    padding-top: 3.625rem;
+  }
+}

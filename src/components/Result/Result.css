@@ -1,0 +1,128 @@
+.results__details {
+  margin-top: 2.8125rem;
+}
+
+.results__details-word {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.word-details h1 {
+  margin: 0;
+  margin-bottom: 0.5625rem;
+  font-size: 2rem;
+  font-weight: var(--fw-700);
+  color: rgb(var(--primary-text-color));
+}
+
+.word-details h2 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: var(--fw-400);
+  color: rgb(var(--purple));
+}
+
+.meaning-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  width: 100%;
+  margin-bottom: 2.125rem;
+}
+
+.meaning-title h1 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: var(--fw-700);
+  color: rgb(var(--primary-text-color));
+}
+
+.meaning-title span {
+  height: 0.0625rem;
+  width: 100%;
+  background: rgb(var(--line-color));
+}
+
+.meaning-details {
+  margin-top: 2rem;
+}
+
+.meaning-details h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: var(--fw-400);
+  color: rgb(var(--secondary-text-color));
+}
+
+.meaning-details ul {
+  padding-left: 1.125rem;
+}
+
+.meaning-details li {
+  line-height: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.meaning-details li::marker {
+  color: rgb(var(--purple));
+}
+
+.meaning-synonyms,
+.meaning-antonyms {
+  display: inline-flex;
+  gap: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+
+:is(.meaning-synonyms, .meaning-antonyms) h2 {
+  font-size: 1rem;
+  font-weight: var(--fw-400);
+  color: rgb(var(--secondary-text-color));
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+:is(.meaning-synonyms, .meaning-antonyms) p {
+  font-weight: var(--fw-700);
+  color: rgb(var(--purple));
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.results__details-source {
+  margin: 2rem 0;
+}
+
+.results__details-source span {
+  display: block;
+  height: 0.0625rem;
+  width: 100%;
+  background: rgb(var(--line-color));
+}
+
+.results__details-source h2 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: var(--fw-400);
+  color: rgb(var(--secondary-text-color));
+  text-decoration: underline;
+}
+
+.source-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5625rem;
+  color: rgb(var(--primary-text-color));
+  font-size: 0.875rem;
+  font-weight: var(--fw-400);
+}
+
+.source-link img {
+  height: 0.875rem;
+  width: 0.875rem;
+}

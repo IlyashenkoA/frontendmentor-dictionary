@@ -1,0 +1,70 @@
+.input-search {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input__control {
+  display: inline-flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.input-control:hover {
+  cursor: pointer;
+}
+.input__control-icon {
+  position: absolute;
+  right: 1.5rem;
+
+  cursor: pointer;
+}
+
+.input__control-icon svg {
+  display: inline-block;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 1.25rem 4rem 1.25rem 1.5rem;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: var(--fw-700);
+  border-radius: 1rem;
+  border: 0.0625rem solid transparent;
+
+  background-color: rgba(var(--primary-input-bg));
+  color: rgb(var(--primary-text-color));
+}
+
+.input__warning {
+  font-size: 1.25rem;
+  color: rgb(var(--red));
+  margin: 0;
+}
+
+input[type="search"]::placeholder {
+  font-size: 1.25rem;
+  color: rgba(var(--primary-text-color), 0.25);
+}
+
+input[type="search"]:not(:placeholder-shown) {
+  background-color: rgba(var(--secondary-input-bg));
+}
+
+input[type="search"]:is(:hover, :focus) {
+  border-color: rgb(var(--purple));
+  cursor: pointer;
+}
+
+input[type="search"]:invalid {
+  border-color: rgb(var(--red));
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}

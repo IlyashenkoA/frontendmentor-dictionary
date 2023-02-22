@@ -1,0 +1,49 @@
+input[type="checkbox"] {
+  display: none;
+}
+
+svg {
+  height: 1.375rem;
+  width: 1.375rem;
+}
+
+.theme-switcher-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.theme-switcher-container:has(input[type="checkbox"]:checked) > svg path {
+  stroke: rgb(var(--purple));
+}
+
+.theme-switcher {
+  display: inline-flex;
+  align-items: center;
+  width: 2.5rem;
+  height: 1.25rem;
+
+  background-color: rgb(var(--theme-switcher-bg));
+  border-radius: 1.25rem;
+}
+
+.theme-switcher:has(input[type="checkbox"]:checked) {
+  background-color: rgb(var(--purple));
+}
+
+label {
+  display: inline-block;
+  height: 0.875rem;
+  width: 0.875rem;
+  border-radius: 50%;
+  -webkit-transform: translateX(0.1875rem);
+  transform: translateX(0.1875rem);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="checkbox"]:checked ~ label {
+  -webkit-transform: translateX(1.45rem);
+  transform: translateX(1.45rem);
+}

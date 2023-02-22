@@ -1,0 +1,34 @@
+.play-btn {
+  position: relative;
+  height: 4.6875rem;
+  width: 4.6875rem;
+  background-color: rgba(164, 69, 237, 0.25);
+  border-radius: 50%;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play-btn:hover {
+  background-color: rgb(var(--purple));
+}
+
+.play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  width: 1.3125rem;
+  height: 1.3125rem;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  background-color: rgb(var(--purple));
+  transition: 0.3s;
+}
+
+.play-btn:hover::after {
+  background-color: rgb(255, 255, 255);
+}
