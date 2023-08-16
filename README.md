@@ -16,7 +16,11 @@
 
 ## About The Project
 
-Dictionary application uses the Dictionary API to search for words, as well as to return all the detailed information on the word. It is possible to play the audio file for a word, as well as switch the theme and font family of the application.
+Explore the capabilities of Dictionary App, a versatile tool that harnesses the power of the Dictionary API to provide you with comprehensive language insights. With this app, you can effortlessly search for words and gain access to detailed information, facilitating a deeper understanding of language nuances.
+
+One of the standout features is the ability to listen to pronunciations, allowing you to grasp correct pronunciation nuances and improve your language proficiency. The app also respects your preferences, enabling you to switch themes and font families, ensuring a personalized and comfortable experience.
+
+The Dictionary App is designed to empower you on your linguistic journey, helping you navigate the intricacies of language with ease. Whether you're a student, a language enthusiast, or simply seeking a reliable reference tool, this app provides you with a straightforward and convenient means to explore language, all within a user-friendly interface.
 
 <br />
 
